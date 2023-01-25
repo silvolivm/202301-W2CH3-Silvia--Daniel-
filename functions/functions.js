@@ -12,14 +12,13 @@ const arrayLength = (array) => {
 
 const arrayPush = (array, item) => {
   const x = arrayLength(array);
-  [];
   array[x] = item;
   return x;
 };
 
 const arrayPop = (array) => {
   const x = arrayLength(array);
-  const y = x - 1;
-  array[y] = undefined;
-  return array[x];
+  const y = array[x - 1];
+  array[x - 1] = undefined;
+  return y;
 };

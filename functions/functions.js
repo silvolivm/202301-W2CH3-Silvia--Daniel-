@@ -22,3 +22,4 @@ const arrayPop = (array) => {
   array[x - 1] = undefined;
   return y;
 };
+

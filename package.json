@@ -4,17 +4,20 @@
   "description": "Construir funciones que reproduzcan los metodos de los arrays",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "jest",
     "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "jest": "^29.4.0"
   }
 }
